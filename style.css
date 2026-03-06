@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(53, 255, 0, 1);
+    display: flex;
+    gap: 20px;
+    font-size: 32px;
+}
+.grand {
+
+    height: 567px;
+    background-image: url(https://learn.logikaschool.com/uploads/student/3451847/699998aaedf58.png);
+}
+.ores {
+    height: 600px;
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url(https://learn.logikaschool.com/uploads/student/3451847/69999b1d17bfb.png);
+}
+.ores h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.ore-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.ore {
+    width: 250px;
+    background-color: #4b5060;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ore img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    background-color: #2e323f;
+    padding: 10px;
+}
+
+
+.ore h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+}
+
+.ore p {
+    font-size: 14px;
+    color: #dcdcdc;
+}
+.ore-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap; 
+}
+
+.ore {
+    width: 250px;
+    background-color: #4b5060;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobs {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(133, 15, 0, 1);
+}
+
+.mob-list {
+    display: flex;
+    justify-content: center;  
+    gap: 40px;                 
+    flex-wrap: nowrap;       
+}
+.mob {
+    width: 200px;
+    background-color: #4b5060;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mob img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+};
+
+
+.mob-list {
+    display: flex;
+    justify-content: center;  
+    gap: 40px;                
+    flex-wrap: nowrap;       
+}
+
+.mob {
+    width: 200px;
+    background-color: #e4093c;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mob img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+.about {
+    background-color: rgba(133, 15, 0, 1);
+    padding: 60px 80px;
+}
+
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-text {
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.about img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.about-center {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about-center h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about-center p {
+    font-size: 24px;
+}
+
+.footer {
+    width: auto;
+    padding: 40px 20px;
+    height: 200px;
+    background-image: url(https://learn.logikaschool.com/uploads/student/3451847/69999b1d17bfb.png);   
+}
